@@ -50,8 +50,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 240px;
+    margin-right: 240px;
 }
 .pic1{
     background: rgba(167, 33, 98, 0.15);
@@ -98,4 +98,49 @@ body{
     font-size: 24px;
     text-align: center;
     margin-top: 5px;
+}
+.chart{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 320px;
+    margin: 128px 240px;
+    
+}
+.icon{
+    padding: 86px 175px;
+}
+.details{
+      color: rgba(39, 39, 39, 0.80);
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 215px;
+    width: 100%;
+    height: 620px;
+
+}
+.mental{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.eight{
+    padding: 100px 250px 100px 0px;
+}
+.dell{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+
 }
