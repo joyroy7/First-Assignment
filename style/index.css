@@ -1,0 +1,101 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+.heading{
+    width: 700px;
+    align-items: center;
+}
+.title{
+    color: #272727;
+    font-size: 80px;
+    width: 800;
+    margin-bottom: 0px;
+}
+.disciription{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.botom{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #E55473;
+    border-radius: 10px;
+}
+.manu{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color:#272727;
+    margin-top: 150px;
+    
+}
+.text{
+  text-align: center;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.flo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.pic1{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    border: 90px 78px 0px 75px;
+    width: 464px;
+    height: 538px;
+}
+.pic2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+  
+}
+.pic3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.photo1{
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 0px 76px;
+}
+.photo2{
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 51px 47px;
+}
+.photo3{
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 5px;
+}
