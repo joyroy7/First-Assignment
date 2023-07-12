@@ -143,17 +143,31 @@ body{
     justify-content: space-around;
     padding: 24px 240px 48px 240px;
 }
+.container{
+    margin: 128px 240px 128px 255px;
+}
 .from{
     background-image: url(../style/Rectangle\ 9.png);
     border-radius: 10px;
     background-repeat: no-repeat;
-    width: 1900px;
-    height: 449px;
-    align-items: center;
-    margin: 128px 160px 128px 280px;
+    width: 1440px;
+    height: 449px
 }
 .last{
     align-items: center;
+}
+.fifth{
+    text-align: center;
+    padding-top: 1px;
+}
+.output{
+    width: 600px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
 }
 .foot{
     width: 100%;
@@ -166,7 +180,7 @@ body{
     font-size: 48px;
     font-weight: 800;
     text-align: center;
-    border-top: 128px;
+    justify-content: space-around;
 }
 .pink{
 color: white;
@@ -175,9 +189,10 @@ color: white;
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
-    text-align: center; 
-}
-.fifth{
     text-align: center;
+} 
+.comment{
+    align-items: center;
+    padding-top: 80px;
 }
 
