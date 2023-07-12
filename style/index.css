@@ -38,7 +38,6 @@ body{
     font-weight: 800;
     color:#272727;
     margin-top: 150px;
-    
 }
 .text{
   text-align: center;
@@ -59,19 +58,21 @@ body{
     border: 90px 78px 0px 75px;
     width: 464px;
     height: 538px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .pic2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 464px;
     height: 538px;
-  
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .pic3{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 464px;
     height: 538px;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
 }
 .photo1{
     width: 310px;
@@ -88,8 +89,6 @@ body{
     height: 471px;
     padding: 67px 75px 0px 75px;
 }
-
-
 .list{
     list-style: none;
     display: flex;
@@ -102,19 +101,23 @@ body{
 .chart{
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    display: flex;
-    justify-content: center;
     width: 1490px;
     height: 320px;
     margin: 128px 240px 128px 255px;
+    padding-top: 130px;
 }
 .icon{
-    padding: 86px 175px;
+    display: flex;
+    justify-content:center;
+    gap: 340px;
 }
-.details{
-      color: rgba(39, 39, 39, 0.80);
-      font-size: 24px;
-      font-weight: 600;
+.address{
+    display: flex;
+    justify-content:center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    gap: 110PX;
 }
 .fourth{
     display: flex;
@@ -183,7 +186,7 @@ body{
     justify-content: space-around;
 }
 .pink{
-color: white;
+    color: white;
 }
 .paragraph{
     color: rgba(255, 255, 255, 0.90);
